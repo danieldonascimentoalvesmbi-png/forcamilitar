@@ -1,0 +1,469 @@
+{
+  "users": [
+    {
+      "id": "u_1",
+      "username": "comandante",
+      "habboNick": "Comandante_FMB",
+      "habboAvatar": "hr-115-31.hd-195-3.ch-210-62.lg-270-62.sh-300-62.ha-1002-62",
+      "habboMotto": "Disciplina, Honra e Compromisso. FMB 🇧🇷",
+      "habboCreated": "12-10-2015",
+      "role": "Administrador Supremo",
+      "status": "Ativo",
+      "activeState": "Offline",
+      "joinedAt": "2026-01-01T00:00:00.000Z",
+      "totalServiceSeconds": 345600,
+      "medals": [
+        "servico_100h"
+      ],
+      "trainingsCreated": 24,
+      "promotionsGiven": 18
+    },
+    {
+      "id": "u_2",
+      "username": "general",
+      "habboNick": "General_Tatico",
+      "habboAvatar": "hr-893-45.hd-180-1.ch-3030-92.lg-275-64.sh-300-64.ha-1002-62",
+      "habboMotto": "FMB no comando! Operação Sobrevivência.",
+      "habboCreated": "15-04-2017",
+      "role": "Comandante-Geral",
+      "status": "Ativo",
+      "activeState": "Online",
+      "joinedAt": "2026-01-10T12:00:00.000Z",
+      "totalServiceSeconds": 216000,
+      "medals": [
+        "militar_mes",
+        "servico_100h"
+      ],
+      "trainingsCreated": 15,
+      "promotionsGiven": 10
+    },
+    {
+      "id": "u_3",
+      "username": "major_silva",
+      "habboNick": "Major_Silva",
+      "habboAvatar": "hr-115-42.hd-180-2.ch-215-62.lg-270-62.sh-300-64",
+      "habboMotto": "Instrução tática de combate avançado.",
+      "habboCreated": "20-11-2018",
+      "role": "Major",
+      "status": "Ativo",
+      "activeState": "Offline",
+      "joinedAt": "2026-02-01T10:30:00.000Z",
+      "totalServiceSeconds": 144000,
+      "medals": [
+        "instrutor_mes",
+        "treinos_10"
+      ],
+      "trainingsCreated": 42,
+      "promotionsGiven": 5
+    },
+    {
+      "id": "u_4",
+      "username": "capitao_oliveira",
+      "habboNick": "Capitao_Oliveira",
+      "habboAvatar": "hr-115-42.hd-180-2.ch-215-62.lg-270-62.sh-300-64",
+      "habboMotto": "Liderando com honra e retidão.",
+      "habboCreated": "03-01-2019",
+      "role": "Capitão",
+      "status": "Ativo",
+      "activeState": "Offline",
+      "joinedAt": "2026-02-15T09:00:00.000Z",
+      "totalServiceSeconds": 324000,
+      "medals": [
+        "destaque_operacional"
+      ],
+      "trainingsCreated": 21,
+      "promotionsGiven": 8
+    },
+    {
+      "id": "u_5",
+      "username": "recruta_felipe",
+      "habboNick": "Recruta_Felipe",
+      "habboAvatar": "hr-115-42.hd-180-2.ch-215-62.lg-270-62.sh-300-64",
+      "habboMotto": "Pronto para servir a FMB!",
+      "habboCreated": "14-02-2022",
+      "role": "Soldado",
+      "status": "Ativo",
+      "activeState": "Em Serviço",
+      "joinedAt": "2026-06-01T08:00:00.000Z",
+      "totalServiceSeconds": 18000,
+      "medals": [],
+      "trainingsCreated": 0,
+      "promotionsGiven": 0
+    }
+  ],
+  "passwords": {
+    "u_1": "$2b$10$vRjW2uHameU7X8B0nftGKuqbsldKtm460nGQBh6lHQqDxCH6x/tBO",
+    "u_2": "$2b$10$dqKadQE6dR.SgPBPGtwdiueOGwwT8TsvsiNd3ykjwpZQMoTPmfAOG",
+    "u_3": "$2b$10$bvGSpcEDPoWFk16H2tk.bOy.woj5eZnubjGmPCwuqWWZVbohjErmC",
+    "u_4": "$2b$10$vkbPPSfuex2I3DnIdV5/TeMVcvyDD8jf/yfCdV4yAlxMQSkZJC6sa",
+    "u_5": "$2b$10$EBh3Bm4bSIibymgarFGFaOJe4mqaHljMbI985ABOr4i3psErhYC5W",
+    "Comandante_FMB": "$2b$10$vRjW2uHameU7X8B0nftGKuqbsldKtm460nGQBh6lHQqDxCH6x/tBO",
+    "comandante": "$2b$10$vRjW2uHameU7X8B0nftGKuqbsldKtm460nGQBh6lHQqDxCH6x/tBO"
+  },
+  "promotions": [
+    {
+      "id": "promo_1",
+      "promotedMilitarId": "u_3",
+      "promotedMilitarName": "Major_Silva",
+      "promoterId": "u_1",
+      "promoterName": "Comandante_FMB",
+      "oldRank": "Capitão",
+      "newRank": "Major",
+      "reason": "Grande bravura tática e excelência na ministração de treinamentos da academia militar.",
+      "date": "2026-06-01",
+      "time": "14:20:00"
+    }
+  ],
+  "trainings": [
+    {
+      "id": "t_1",
+      "name": "Avançado de Tiro Tático",
+      "instructorId": "u_3",
+      "instructorName": "Major_Silva",
+      "participants": [
+        "Capitao_Oliveira",
+        "Recruta_Felipe"
+      ],
+      "category": "Armamento",
+      "description": "Treinamento especializado em fuzil FAL 7.62mm e simulações de confronto tático.",
+      "date": "2026-06-08",
+      "time": "19:00",
+      "status": "Concluido"
+    },
+    {
+      "id": "t_2",
+      "name": "Curso de Formação de Oficiais - CFO",
+      "instructorId": "u_1",
+      "instructorName": "Comandante_FMB",
+      "participants": [
+        "Major_Silva"
+      ],
+      "category": "Liderança",
+      "description": "Formação em comandamento tático de divisões especiais organizadas.",
+      "date": "2026-06-09",
+      "time": "21:00",
+      "status": "Agendado"
+    }
+  ],
+  "pontes": [
+    {
+      "id": "p_1",
+      "userId": "u_5",
+      "userNick": "Recruta_Felipe",
+      "date": "2026-06-09",
+      "checkInTime": "2026-06-09T14:00:00.000Z",
+      "checkOutTime": null,
+      "durationSeconds": 0
+    },
+    {
+      "id": "p_2",
+      "userId": "u_2",
+      "userNick": "General_Tatico",
+      "date": "2026-06-08",
+      "checkInTime": "2026-06-08T14:00:00.000Z",
+      "checkOutTime": "2026-06-08T18:00:00.000Z",
+      "durationSeconds": 14400
+    }
+  ],
+  "missions": [
+    {
+      "id": "m_1",
+      "title": "Treinador Padrão",
+      "description": "Ministre 5 treinamentos autorizados para formar novos recrutas.",
+      "rewardMedals": [
+        "treinos_10"
+      ],
+      "rewardPoints": 10,
+      "rewardDestaque": false,
+      "active": true,
+      "targetCategory": "trainings",
+      "targetCount": 5
+    },
+    {
+      "id": "m_2",
+      "title": "Sentinela de Elite",
+      "description": "Acumule 20 horas (72.000 segundos) de patrulha em serviço ativo.",
+      "rewardMedals": [
+        "servico_100h"
+      ],
+      "rewardPoints": 20,
+      "rewardDestaque": true,
+      "active": true,
+      "targetCategory": "service_hours",
+      "targetCount": 72000
+    },
+    {
+      "id": "m_3",
+      "title": "Incentivador Militar",
+      "description": "Realize 3 promoções militares documentando as justificativas.",
+      "rewardMedals": [],
+      "rewardPoints": 15,
+      "rewardDestaque": false,
+      "active": true,
+      "targetCategory": "promotions",
+      "targetCount": 3
+    }
+  ],
+  "missionProgress": [],
+  "logs": [
+    {
+      "id": "log_30nv2gzv0",
+      "userId": "u_1",
+      "userNick": "Comandante_FMB",
+      "action": "LOGOUT",
+      "details": "Militar Comandante_FMB se desconectou do painel.",
+      "timestamp": "2026-06-10T14:54:14.206Z"
+    },
+    {
+      "id": "log_jx5er05pl",
+      "userId": "u_1",
+      "userNick": "Comandante_FMB",
+      "action": "LOGIN",
+      "details": "Militar Comandante_FMB efetuou login no painel.",
+      "timestamp": "2026-06-10T14:54:02.888Z"
+    },
+    {
+      "id": "log_1",
+      "userId": null,
+      "userNick": "SISTEMA",
+      "action": "BANCO_INICIALIZADO",
+      "details": "Banco de dados militar semeado com a elite FMB inicial.",
+      "timestamp": "2026-06-10T13:15:07.724Z"
+    }
+  ],
+  "destaques": {
+    "militaryOfTheMonth": "u_2",
+    "instructorOfTheMonth": "u_3",
+    "destaqueOperacional": "u_4"
+  },
+  "rankConfigs": [
+    {
+      "rank": "Soldado",
+      "label": "Soldado",
+      "description": "Militar de entrada responsável por patrulhar o QG de sentinela.",
+      "permissions": {
+        "canEnlist": false,
+        "canPromote": false,
+        "canTrain": false,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Cabo",
+      "label": "Cabo",
+      "description": "Fiscal de entrada incumbido de direcionar novatos no saguão de recristalização.",
+      "permissions": {
+        "canEnlist": false,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Sargento",
+      "label": "Sargento",
+      "description": "Líder de divisão encarregado de ministrar instruções básicas aos recrutas.",
+      "permissions": {
+        "canEnlist": false,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Subtenente",
+      "label": "Subtenente",
+      "description": "Auxiliar do corpo de oficiais focado no policiamento interno.",
+      "permissions": {
+        "canEnlist": false,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Aspirante",
+      "label": "Aspirante",
+      "description": "Oficial sob observação exercendo liderança prática no comando do QG.",
+      "permissions": {
+        "canEnlist": false,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Segundo-Tenente",
+      "label": "Segundo-Tenente",
+      "description": "Suboficial inicial encarregado do alistamento de novos praças no centro de recrutas.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Primeiro-Tenente",
+      "label": "Primeiro-Tenente",
+      "description": "Oficial intermediário encarregado de consolidar relatórios táticos de instrução.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": false,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Capitão",
+      "label": "Capitão",
+      "description": "Militar comandante habilitado a assinar primeiras promoções no quadro operacional.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": false,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Major",
+      "label": "Major",
+      "description": "Supervisor-chefe de instruções oficiais e editor de materiais acadêmicos e PDFs.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Tenente-Coronel",
+      "label": "Tenente-Coronel",
+      "description": "Co-gestor regimental orientador de diretrizes internas corporativas.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": false,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Coronel",
+      "label": "Coronel",
+      "description": "Comandante regimental com plenos poderes de criação de missões e metas de patrulha.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "General de Brigada",
+      "label": "General de Brigada",
+      "description": "General de infantaria encarregado das relações internacionais e cursos do Alto Comando.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "General de Divisão",
+      "label": "General de Divisão",
+      "description": "General sênior regulador de fluxos de progressão do exército e corporação.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "General de Exército",
+      "label": "General de Exército",
+      "description": "Membro supremo executivo do Alto Conselho FMB com deveres estratégicos plenos.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": false
+      }
+    },
+    {
+      "rank": "Comandante-Geral",
+      "label": "Comandante-Geral",
+      "description": "Líder e reitor da corporação encarregado de homologar permissões de menor porte.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": true
+      }
+    },
+    {
+      "rank": "Administrador Supremo",
+      "label": "Administrador Supremo",
+      "description": "Inaugurador e guardião-titular supremo de todos os bancos de dados, diretrizes da FMB, cargos e hierarquia.",
+      "permissions": {
+        "canEnlist": true,
+        "canPromote": true,
+        "canTrain": true,
+        "canManageDocs": true,
+        "canManageMissions": true,
+        "canAdminSystem": true
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1",
+      "title": "Manual de Instruções e Conduta da FMB",
+      "category": "manual",
+      "content": "# MANUAL DE INSTRUÇÃO E CONDUTA MILITAR\n\nEste documento regula o comportamento ideal de todos os militares da **Força Militar Brasileira (FMB)** no Habbo.\n\n## 1. Tratamento e Hierarquia\n- Todo militar de patente superior deve ser tratado por **Senhor** ou **Senhora**.\n- Ao entrar um superior no recinto, ordene **\"Sentido!\"** em voz alta.\n- Mantenha-se na posição até ordem em contrário.\n\n## 2. Postura em Sentry (Sentinela)\n- Proibido dançar, usar balões coloridos em falas ou usar visuais desalinhados com a farda oficial.\n- Mantenha o silêncio tático quando operando alavancas do portão.\n\n## 3. Código Penal Militar (CPM)\n- Desobediência direta: Sujeita à suspensão imediata.\n- Invasão de área restrita: Perda de patente.\n- Cumplicidade com transgressores: Banimento definitivo.",
+      "authorNick": "Comandante_FMB",
+      "createdAt": "2026-06-09T18:00:00.000Z"
+    },
+    {
+      "id": "doc_2",
+      "title": "Script Oficial de Auxílio de Recrutas (CFS)",
+      "category": "roteiro",
+      "content": "# SCRIPT OFICIAL PARA CURSO DE FORMAÇÃO DE SOLDADOS (CFS)\n\n*Copie e cole estas instruções para repassar aos Recrutas na Sala de Instrução FMB:*\n\n1. \"Olá Recrutas! Sejam bem-vindos à Força Militar Brasileira (FMB).\" \n2. \"Eu sou o instrutor [Seu Nick] e guiarei vocês pelas táticas básicas de segurança.\" \n3. \"Regra de Ouro: Nunca revele sua senha a ninguém, nem mesmo ao Comandante.\" \n4. \"Comando de Sentido: Ao ouvir, fiquem parados, digitem 'Sim Senhor!' e fiquem em silêncio imediato.\"\n5. \"Comando de À Vontade: Podem relaxar e digitar à vontade, preservando o bom senso.\"\n6. \"A farda padrão é obrigatória no QG. Certifique-se de que está usando farda verde militar verde-oliva.\"",
+      "authorNick": "Comandante_FMB",
+      "createdAt": "2026-06-09T18:10:00.000Z"
+    }
+  ],
+  "recruitLessons": [],
+  "enlistmentRequests": []
+}
